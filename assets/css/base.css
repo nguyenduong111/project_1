@@ -1,0 +1,44 @@
+/* các thành phần chung */
+
+/* các biến toàn cục */
+:root {
+    --primary-color: #e3524c;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #303131;
+    --border-color: #dbdbdb;
+    --size-logo: 80px;
+
+    --header-height: 600px;
+    --navbar-height: calc(var(--header-height) / 5);
+    --search-height: calc(var(--header-height) - var(--navbar-height));
+    --intro-height: 572px;
+    --popular-height: 440px;
+    --where-height: 572px;
+    --news-height: 812px;
+    --footer-height: 400px;
+}
+
+* { /*áp dụng cho tất cả các file.html (nhưng độ uu tiên thấp nhất)*/
+    box-sizing: inherit;
+    /* kế thừa các thuộc tính của box-sizing */
+}
+
+html {
+    /* font-size: 100%;  */
+    /*thông thường là 16px*/
+    font-size: 62.5%;  /*đặt 62.5% để dễ dành lấy đơn vị rem hơn (16px = 1.6rem, 14px = 1.4rem)*/
+    line-height: 1.6rem; /* khoảng cách giữa các dòng*/
+    font-family: 'Roboto', sans-serif;  /*do font đc nhung trực tiếp vào html nên có thể sẽ mất thời gian tải nên trong trường hợp chưa kịp tải roboto thì sẽ dùng font sans-serif*/
+    box-sizing: border-box;
+    background-color: rgb(226, 226, 226);
+}
+
+.grid {
+    width: 1500px;
+    max-width: 100%;
+    /*  với màn >= 1200px thì đẩy xuống 1200px
+        với màn < 1200px thì xét 100% giao diện hiên tại */
+    margin: 0 auto;
+
+}
