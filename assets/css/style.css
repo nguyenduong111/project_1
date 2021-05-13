@@ -68,12 +68,13 @@
 }
 
 .navber--text {
+    width: 350px;
     left: 101px;
     top: -27px;
     position: relative;
     font-size: 30px;
     font-weight: 300;
-    font-family: fantasy;
+    /* font-family: fantasy; */
     color: var(--primary-color);}
 
 .navbar__list {
