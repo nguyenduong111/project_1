@@ -105,11 +105,17 @@
 
 .navbar__login {
     position: absolute;
-    color: var(--white-color);
+    color: rgb(235, 59, 59);
     width: 130px;
     height: 42px;
-    top: 50px;
+    top: 47px;
     right: 0px;
+    background-color: var(--white-color);
+    z-index: 10;
+}
+
+.navbar__login:hover {
+    color: var(--white-color);
     background-color: var(--primary-color);
 }
 
@@ -1127,7 +1133,7 @@
     width: 165px;
     height: 260px;
     background-color: var(--white-color);
-    top: 120px;
+    top: 130px;
 }
 
 .advertise--left {
@@ -1136,7 +1142,7 @@
     width: 165px;
     height: 260px;
     background-color: var(--white-color);
-    top: 120px;
+    top: 130px;
 
 }
 
@@ -1149,7 +1155,7 @@
     font-size: 15px;
     z-index: 10;
     position: fixed;
-    top: 120px;
+    top: 130px;
     left: 0px;
 }
 
@@ -1159,7 +1165,7 @@
     width: 165px;
     height: 260px;
     background-color: var(--white-color);
-    top: 120px;
+    top: 130px;
 
 }
 
@@ -1172,6 +1178,6 @@
     font-size: 15px;
     z-index: 10;
     position: fixed;
-    top: 120px;
+    top: 130px;
     right: 0px;
 }
