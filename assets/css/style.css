@@ -1049,8 +1049,8 @@
     font-size: 17px;
     font-weight: 300;
     position: absolute;
-    margin: 0px 63px;
-    top:170px;
+    margin: 0px 111px;
+    top:197px;
     color: var(--white-color);
 
 }
@@ -1058,27 +1058,27 @@
 .gg {
     position: absolute;
     top: 90px;
-    left: 63px;
+    left: 128px;
     width: 118px;
-    height: 23px;
-    /* color: white; */
+    height: 40px;
     background-color: var(--white-color);
-}
+    padding: 2px;
+    border: 1px solid rgb(221, 221, 221);}
 
 .ap {
     position: absolute;
-    top: 125px;
-    left: 62px;
+    top: 145px;
+    left: 128px;
     width: 118px;
-    height: 23px;
-    /* color: white; */
+    height: 40px;
     background-color: var(--white-color);
-}
+    padding: 2px;
+    border: 1px solid rgb(221, 221, 221);}
 
 .qr {
     position: absolute;
-    top: 202px;
-    left: 62px;
+    top: 228px;
+    left: 100px;
     width: 173px;
     height: 157px;
 }
@@ -1086,36 +1086,42 @@
 .link {
     /* background-color: antiquewhite; */
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .link h2 {
     font-size: 24px;
     font-weight: 500;
     position: absolute;
-    /* margin: 0px 60px; */
+    /* margin: 33px auto 0px auto; */
     top: 33px;
     color: var(--white-color);
     text-decoration: underline;
     left: 133px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .link ul {
     list-style: none;
     position: absolute;
-    top: 114px;
-    left: 90px;
+    top: 72px;
+    left: 49px;
+    display: flex;
+    flex-direction: column;
 }
 
 .link li {
-    
-    
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .link--item {
     color: var(--white-color);
     font-size: 20px;
     font-weight: 300;
-    line-height: 49px;
+    line-height: 65px;
 }
 
 /* ---------------------------------------- */
